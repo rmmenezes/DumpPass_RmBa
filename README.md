@@ -18,4 +18,4 @@ pyinstaller getwifipass.py
 
 If everything is correct so far pyinstaller will create some folders and within "dist / getPass" you will find the executable file ready for use.
 
-! [img] (autorun_img.PNG)
+![img](autorun_img.PNG)
