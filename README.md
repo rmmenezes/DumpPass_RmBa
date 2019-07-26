@@ -1,3 +1,4 @@
+
 # Get Wifi Passwords
 This code collects passwords for WiFi networks already connected in the Windows operating system only (PT-BR).
 
@@ -19,3 +20,4 @@ pyinstaller getwifipass.py
 Se tudo estiver correto até aqui o pyinstaller irá criar algumas pastas sendo que dentro de “dist/getPass” você encontra o arquivo executável pronto para uso.
 
 ![img](autorun_img.PNG)
+
