@@ -1,23 +1,21 @@
-
 # Get Wifi Passwords
-This code collects passwords for WiFi networks already connected in the Windows operating system only (PT-BR).
+This code collects passwords for WiFi networks already connected in the Windows operating system only (EN).
 
-Você pode usar este código de duas formas. A primeira é utilizar o Python para executar o código getwifipass.py diretamnete. Porém em ambientes que não possuam o interpretador python disponível pode você pode criar um arquivo executável do Windows (.EXE) do codigo “getwifipass.py”.
+You can use this code in two ways. The first is to use Python to run getwifipass.py code directly. However in environments that do not have the python interpreter available you can create a Windows executable (.EXE) file of the code "getwifipass.py".
 
-Para criar seu arquivo executável (.EXE) você pode utilizar um conversor de scripts Python em programas executáveis ​​do Windows, capazes de executar sem exigir uma instalação do Python. Alguns programas conversores como por exemplo: py2exe, cx_Freeze, PyInstaller. É recomendado o uso do PyInstaller e será como este conversor que seguiremos este tutorial.
+To create your executable (.EXE) file you can use a Python script converter in Windows executable programs that can run without requiring a Python installation. Some converter programs such as py2exe, cx_Freeze, PyInstaller. PyInstaller is recommended and it will be like this converter that we will follow this tutorial.
 
 ## PyInstaller Quickstart
-Para instalar o PyInstaller você pode utilizar o seguinte comando:
-```
+To install PyInstaller you can use the following command:
+`` `
 python -m pip install pyinstaller
-```
+`` `
 
-Após instalado, use o comando abaixo no diretório corrente do repositório, para converter o arquivo getwifipass.py em executavel (.EXE). 
-```
+Once installed, use the command below in the current repository directory to convert the getwifipass.py file to executable (.EXE).
+`` `
 pyinstaller getwifipass.py
-```
+`` `
 
-Se tudo estiver correto até aqui o pyinstaller irá criar algumas pastas sendo que dentro de “dist/getPass” você encontra o arquivo executável pronto para uso.
+If everything is correct so far pyinstaller will create some folders and within "dist / getPass" you will find the executable file ready for use.
 
-![img](autorun_img.PNG)
-
+! [img] (autorun_img.PNG)
