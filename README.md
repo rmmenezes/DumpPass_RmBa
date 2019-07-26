@@ -1,5 +1,5 @@
 # Get Wifi Passwords
-This code collects passwords for WiFi networks already connected in the Windows operating system only (EN).
+This code collects passwords for WiFi networks already connected in the Windows operating system only (PT-BR).
 
 You can use this code in two ways. The first is to use Python to run getwifipass.py code directly. However in environments that do not have the python interpreter available you can create a Windows executable (.EXE) file of the code "getwifipass.py".
 
