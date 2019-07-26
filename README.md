@@ -16,6 +16,6 @@ Após instalado, use o comando abaixo no diretório corrente do repositório, pa
 pyinstaller getwifipass.py
 ```
 
-Se tudo estiver correto até aqui o pyinstaller irá criar alunas pastas sendo que dentro de “dist/getPass” você encontra o arquivo executável pronto para uso.
+Se tudo estiver correto até aqui o pyinstaller irá criar algumas pastas sendo que dentro de “dist/getPass” você encontra o arquivo executável pronto para uso.
 
 ![img](autorun_img.PNG)
