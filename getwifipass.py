@@ -30,7 +30,7 @@ def get_user_pass():
 def filter_pass(list_pass):
         temp_list = []
         for i in list_pass:
-                temp_list.append(i.replace(" ", '').split(":")[1])
+                temp_list.append(i.replace(" ", "").split(":")[1])
         return temp_list
 
 def criar_arquivo_de_senhas():
