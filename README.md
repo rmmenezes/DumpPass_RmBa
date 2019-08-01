@@ -13,7 +13,7 @@ python -m pip install pyinstaller
 
 Once installed, use the command below in the current repository directory to convert the getwifipass.py file to executable (.EXE).
 ```
-pyinstaller getwifipass.py
+pyinstaller --onefile getwifipass.py
 ```
 
 If everything is correct so far pyinstaller will create some folders and within "dist / getPass" you will find the executable file ready for use.
