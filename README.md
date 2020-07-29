@@ -1,17 +1,17 @@
 # :rat: DumpPass_RmBa :rat:
-This code works on Windows operating systems (PT-BR) and collects already connected WiFi passwords and critical google chrome browser information such as "History, Saved Passwords, Last Searches".
+Esse código funciona nos sistemas operacionais Windows (PT-BR) e coleta senhas de WiFi já conectadas e informações críticas do navegador google chrome, como "Histórico, senhas salvas, últimas pesquisas".
 
-You can use this code in two ways. The first is to use Python to run the code directly. However in environments that do not have the python interpreter available you can create a Windows executable (.EXE).
+Você pode usar esse código de duas maneiras. O primeiro é usar o Python para executar o código diretamente. No entanto, em ambientes que não possuem o interpretador python disponível, você pode criar um executável do Windows (.EXE).
 
-To create your executable (.EXE) file you can use a Python script converter in Windows executable programs that can run without requiring a Python installation. Some converter programs such as py2exe, cx_Freeze, PyInstaller. PyInstaller is recommended and it will be like this converter that we will follow this tutorial.
+Para criar seu arquivo executável (.EXE), você pode usar um conversor de script Python em programas executáveis do Windows que podem ser executados sem a necessidade de uma instalação Python. Alguns programas de conversão, como py2exe, cx_Freeze, PyInstaller. O PyInstaller é recomendado e será como este conversor que seguiremos este tutorial.
 
 ## PyInstaller Quickstart
-To install PyInstaller you can use the following command:
+Para instalar o PyInstaller, você pode usar o seguinte comando:
 ```
 python -m pip install pyinstaller
 ```
 
-Once installed, use the command below in the current repository directory to convert the getwifipass.py and getgooglechromedump.py files to executable (.EXE).
+Depois de instalado, use o comando abaixo no diretório do repositório atual para converter os arquivos getwifipass.py e getgooglechromedump.py em executável (.EXE).
 ```
 pyinstaller --onefile getwifipass.py
 ```
@@ -19,6 +19,6 @@ pyinstaller --onefile getwifipass.py
 pyinstaller --onefile getgooglechromedump.py
 ```
 
-If everything is correct so far pyinstaller will create some folders and within "dist" you will find the executable file ready for use.
+Se tudo estiver correto até agora, o pyinstaller criará algumas pastas e, dentro de "dist", você encontrará o arquivo executável pronto para uso.
 
 ![img](autorun_img.PNG)
